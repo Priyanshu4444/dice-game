@@ -1,0 +1,44 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #000000; /*#393E46*/
+}
+
+h1 {
+  margin: 30px;
+  /*font-family: 'Lobster', cursive;*/
+  font-family: 'Ysabeau SC', sans-serif;
+  text-shadow: 5px 0 #282A3A; /*#232931  #F3F0CA*/
+  font-size: 8rem;
+  color: #C69749; /*#4ECCA3*/
+}
+
+p {
+  font-size: 2rem;
+  color: #C69749; /*#4ECCA3*/
+  /*font-family: 'Indie Flower', cursive;*/
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: thin;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  /*font-family: 'Indie Flower', cursive;*/
+  font-family: 'Ysabeau SC', sans-serif;
+}
