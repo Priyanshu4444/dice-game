@@ -1,8 +1,11 @@
 var randomNumber1 = Math.floor(6*Math.random())+1;
 var randomNumber2 = Math.floor(6*Math.random())+1;
 
-document.querySelector(".img1").setAttribute("src","./images/dice_"+ randomNumber1 + ".png");
-document.querySelector(".img2").setAttribute("src","./images/dice_"+ randomNumber2 + ".png");
+var diceimg1 = "./images/dice_"+ randomNumber1 + ".png";
+var diceimg2 = "./images/dice_"+ randomNumber2 + ".png"
+
+document.querySelector(".img1").setAttribute("src",diceimg1);
+document.querySelector(".img2").setAttribute("src",diceimg2);
 
 if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML = "🎉Player 1 Wins!";
